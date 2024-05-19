@@ -1,0 +1,26 @@
+#blob {
+    background: linear-gradient(var(--color-accent-400), var(--color-dark-500));
+    height: 500px;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 200px;
+    border-radius: 50%;
+    animation: rotate 20s infinite;
+    filter: blur(200px);
+
+
+    @keyframes rotate {
+        from {
+            rotate: 0deg;
+        }
+
+        50% {
+            scale: 1 1.5;
+        }
+
+        to {
+            rotate: 360deg;
+        }
+    }
+
+}

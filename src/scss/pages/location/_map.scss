@@ -1,0 +1,14 @@
+.location-map {
+    display: flex;
+    min-height: 400px;
+    max-width: 1144px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    
+    img {
+        object-fit: cover;
+        display: flex;
+        width: 100%;
+    }
+}

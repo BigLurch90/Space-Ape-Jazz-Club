@@ -1,0 +1,101 @@
+.drinkbar {
+    
+    &__inner {
+        -webkit-mask: linear-gradient( transparent, white 10%, white 90%, transparent);
+        mask: linear-gradient( transparent, white 10%, white 90%, transparent);
+        display: flex;
+        width: 120px;
+        justify-content: center;
+        position: absolute;
+        top: 180px;
+        left: 0;
+        height: 80vh;
+        overflow-y: scroll;
+
+        .swiper-pagination-bullet {
+            height: 120px;
+            gap: 1rem;
+            width: auto;
+            border: 0;
+            background-color: transparent;
+            opacity: 0.5;
+
+            &-active {
+                opacity: 1;
+            }
+        }
+
+        .swiper-pagination-bullet:nth-child(1) {
+            background: url("./assets/image/drinks/blue-dwarf.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 32px;
+        }
+
+        .swiper-pagination-bullet:nth-child(2) {
+            background: url("./assets/image/drinks/suns-crust.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 34px;
+        }
+
+        .swiper-pagination-bullet:nth-child(3) {
+            background: url("./assets/image/drinks/nebula.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 32px;
+        }
+
+        .swiper-pagination-bullet:nth-child(4) {
+            background: url("./assets/image/drinks/neptuns-serfes.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 28px;
+        }
+
+        .swiper-pagination-bullet:nth-child(5) {
+            background: url("./assets/image/drinks/orange-star.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 29px;
+        }
+
+        .swiper-pagination-bullet:nth-child(6) {
+            background: url("./assets/image/drinks/space-claud.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 24px;
+        }
+
+        .swiper-pagination-bullet:nth-child(7) {
+            background: url("./assets/image/drinks/milky-way.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 30px;
+        }
+
+        .swiper-pagination-bullet:nth-child(8) {
+            background: url("./assets/image/drinks/moon-ice.png");
+            background-size: auto 80px;
+            background-repeat: no-repeat;
+            background-position: top 0 left 34px;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        img {
+            height: 120px;
+
+        }
+    }
+}

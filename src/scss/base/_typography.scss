@@ -1,0 +1,80 @@
+body {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-light);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+h4 {
+    
+}
+
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+p {
+    font-family: "work-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-light);
+    line-height: var(--line-height);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+a:hover {
+    color: var(--color-accent-300);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--color-light);
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}

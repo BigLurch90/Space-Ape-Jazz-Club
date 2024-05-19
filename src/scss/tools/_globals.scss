@@ -1,0 +1,53 @@
+/* Theme Name: Space Ape Jazz Club */
+
+:root {
+
+    --section-gap: 7rem;
+    
+    --gap-xxxl: 5rem;
+    --gap-xxl: 4rem;
+    --gap-xl: 3rem;
+    --gap-l: 2rem;
+    --gap-m: 1.5rem;
+    --gap-s: 1rem;
+    --gap-xs: 0.5rem;
+
+    --border-radius: 0.5rem;
+
+    --color-dark: rgb(1, 1, 46);
+    --color-dark-200: rgb(20, 16, 36);
+    --color-dark-300: rgb(40, 32, 70);
+    --color-dark-400: rgb(63, 51, 110);
+    --color-dark-500: rgb(84, 69, 146);
+    
+    --color-dark-opacity-50: rgba(1, 1, 46, 0.5);
+    --color-dark-opacity-80: rgba(1, 1, 46, 0.8);
+
+    
+    --color-accent: rgb(238, 49, 223);
+    --color-accent-200: rgb(200, 48, 188);
+    --color-accent-300: rgb(137, 30, 129);
+    --color-accent-400: rgb(88, 23, 84);
+
+    
+    --color-light: rgb(250, 252, 203);
+    --color-light-200: rgb(242, 245, 168);
+    --color-light-300: rgb(233, 238, 126);
+    --color-light-400: rgb(210, 216, 63);
+
+    --color-light-opacity-62: rgba(250, 252, 203, 0.62);
+
+    --font-header: all-round-gothic, sans-serif;
+    --font-paragraph: "work-sans", sans-serif;
+
+    --line-height: 1.5rem;
+
+    --font-size: 1rem; 
+
+    --page-width: 86rem;
+    --inner-page-width: 71.5rem;
+    --grid-container-header: [full-start] minmax(32px, 1fr) [inner-start] minmax(0, var(--page-width)) [inner-end] minmax(32px, 1fr) [full-end];
+    --grid-container: [full-start] minmax(32px, 1fr) [inner-start] minmax(0, var(--inner-page-width)) [inner-end] minmax(32px, 1fr) [full-end];
+    --grid-container-mobile: minmax(1rem, 1fr) [inner-start] minmax(0, 343px) [inner-end] minmax(1rem, 1fr);
+
+}

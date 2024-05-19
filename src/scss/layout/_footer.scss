@@ -1,0 +1,98 @@
+.site-footer {
+    display: grid;
+    grid-template-columns: var(--grid-container);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    &__backgraund {
+        grid-area: full;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        &-dim {
+            background-image: linear-gradient(var(--color-dark), var(--color-dark-opacity-80), var(--color-dark));
+            position: absolute;
+            inset: 0 0 0 0;
+        }
+    }
+
+    &__inner {
+        grid-area: inner;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: var(--section-gap) 0 4rem 0;
+        gap: 4rem;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__location h4 {
+        font-size: clamp(1.5rem, 1.0856rem + 1.768vw, 2.5rem);
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+
+    &__location p {
+        font-family: all-round-gothic, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 1rem;
+        font-size: clamp(1rem, 0.8343rem + 0.7072vw, 1.4rem);
+    }
+
+    &__about h4 {
+        font-size: clamp(1.5rem, 1.0856rem + 1.768vw, 2.5rem);
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+
+    &__about p {
+        margin-bottom: 1rem;
+        font-size: clamp(1rem, 0.8343rem + 0.7072vw, 1.4rem);
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: clamp(1rem, 0.8343rem + 0.7072vw, 1.4rem);
+    }
+
+    &__link {
+        font-family: all-round-gothic, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: var(--color-light);
+    }
+
+    &__copyright {
+        margin: 0 auto;
+        color: var(--color-light-opacity-62);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .site-footer {
+        border-top: 2px solid var(--color-light-opacity-62);
+        
+        &__content {
+            flex-direction: column;
+            gap: 4rem;
+        }
+
+        &__backgraund {
+            display: none;
+        }
+    }
+
+}
